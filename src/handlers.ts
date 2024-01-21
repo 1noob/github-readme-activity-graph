@@ -6,7 +6,7 @@ import { UserDetails } from './interfaces/interface';
 
 export class Handlers {
     public getRoot(_req: Request, res: Response) {
-        res.send(`<></>`);
+        res.send(`</>`);
     }
 
     public async getGraph(req: Request, res: Response) {
